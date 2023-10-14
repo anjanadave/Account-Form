@@ -1,0 +1,278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+}
+
+.section{
+    width: 50vw;
+    height: 110vh;
+    justify-content: center;
+    align-items: center;
+    color: #ecf0f1;
+    background: #f0f0f0;
+    box-shadow: 5px 5px 25px grey;
+   
+}
+
+.header{
+    color: #f39c12;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.name{
+    /* width: 43vw; */
+    /* padding: 15px; */
+    background: #ecf0f1;
+    border: 1px solid lightgray;
+}
+
+.mail{
+    width: 43vw;
+    padding: 15px;
+    background: #ecf0f1;
+    border: 1px solid lightgray;
+}
+
+.password{
+    width: 43vw;
+    padding: 15px;
+    background: #ecf0f1;
+    border: 1px solid lightgray;
+}
+
+.form-name {
+    padding-left: 25px;
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    margin-top: 5px;
+    background: #ecf0f1;
+    border: 1px solid lightgray;
+}
+
+.form-name input{
+    position: relative;
+    height: 4vh;
+    font-size: 1rem;
+    border: none;
+    width: 20vw;
+}
+
+.email {
+    padding-left: 25px;
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    background: #ecf0f1;
+    border: 1px solid lightgray;
+}
+
+.email input{
+    position: relative;
+    height: 4vh;
+    font-size: 1rem;
+    border: none;
+    width: 20vw;
+}
+
+.pswrd{
+    padding-left: 25px;
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    background: #ecf0f1;
+    border: 1px solid lightgray;
+}
+
+.pswrd input{
+    position: relative;
+    height: 4vh;
+    font-size: 1rem;
+    border: none;
+    width: 20vw;
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+    color: #f39c12;
+    margin-bottom: 5px;
+}
+
+.date{
+    margin-left: 30px;
+}
+
+.gender{
+    margin-right: 200px;
+}
+
+.dd{
+    width: 5vw;
+    margin-left: 30px;
+    margin-top: 10px;
+    padding: 15px;
+    padding-right: 15px;
+    background: #ecf0f1;
+    border: 1px solid lightgray;
+}
+
+
+.mm{
+    width: 5vw;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 15px;
+    padding-right: 15px; 
+    background: #ecf0f1;
+    border: 1px solid lightgray;
+}
+
+.yyyy{
+    width: 8vw;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 15px;
+    padding-right: 15px; 
+    background: #ecf0f1;
+    border: 1px solid lightgray;
+}
+
+.male{
+    width: 14vw;
+    margin-left: 5px;
+    margin-top: 10px;
+    padding: 15px;
+    padding-right: 15px; 
+    margin-right: 0;
+    background: #ecf0f1;
+    border: 1px solid lightgray;
+}
+
+.female{
+    width: 14vw;
+    margin-top: 10px;
+    margin-left: 0;
+    padding: 15px;
+    padding-right: 15px; 
+    background: #ecf0f1; 
+    border: 1px solid lightgray;
+}
+
+.header1{
+    color: #f39c12;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.btn{
+    margin-left: 30px;
+    width: 23vw;
+    padding: 15px;
+    border: 1px solid lightgray;
+    background-color: #f39c12;
+    color: aliceblue;
+    font-size: 25px;
+}
+
+.btn1{
+    width: 24vw;
+    padding: 15px;
+    border: 1px solid lightgray;
+    background-color: #ecf0f1;
+    color: darkgray;
+    font-size: 25px;
+}
+
+.card{
+    width: 43vw;
+    padding: 15px;
+    background: #ecf0f1;
+    border: 1px solid lightgray;  
+}
+
+.cardnumber{
+    padding-left: 25px;
+    font-size: 20px;
+    margin-left: 30px;
+    padding: 10px;
+    background: #ecf0f1;
+    border: 1px solid lightgray;
+}
+
+.cardnumber input{
+    position: relative;
+    height: 4vh;
+    font-size: 1rem;
+    border: none;
+    width: 20vw;
+}
+
+
+.cvc .btn3{
+    width: 20vw;
+    padding: 15px;
+    margin-left: 30px;
+    border: 1px solid lightgray;
+    background-color: #ecf0f1;
+    color: darkgray;
+    font-size: 20px;
+}
+
+.cvc .btn4{
+    width: 14vw;
+    padding: 15px;
+    margin-left: 5px;
+    border: 1px solid lightgray;
+    background-color: #ecf0f1;
+    color: black;
+    font-size: 20px;
+}
+
+.cvc .btn4 i{
+    background: lightgray;
+    margin-left: 30px;
+}
+
+.cvc .btn5{
+    width: 13vw;
+    padding: 15px;
+    border: 1px solid lightgray;
+    background-color: #ecf0f1;
+    color: black;
+    font-size: 20px;
+}
+
+.cvc .btn5 i{
+    background: lightgray;
+    margin-left: 30px;
+}
+
+.para{
+    display: flex;
+}
+
+.para .box{
+    margin-left: 30px;
+    margin-bottom: 15px;
+}
+
+.para p{
+    margin-left: 5px;
+    font-size: 20px;
+    word-spacing: 5px;
+    color: gray;
+}
